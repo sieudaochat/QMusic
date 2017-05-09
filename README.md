@@ -1,2 +1,2 @@
-# QMusic-
+# QMusic
 QMusic (Training)
