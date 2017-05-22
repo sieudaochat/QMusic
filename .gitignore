@@ -18,6 +18,7 @@
 !/tmp/.keep
 /config/database.yml
 /config/secrets.yml
+/.framgia-ci-reports
 
 # Ignore Byebug command history file.
 .byebug_history
