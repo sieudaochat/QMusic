@@ -1,0 +1,30 @@
+<div class="header">
+  <div class="clear"></div>
+  <div class="sub-header">
+    <div class="logo">
+      <%= link_to image_tag("logo2.png"), root_path %>
+    </div>
+    <div class="sub-header-center">
+      <form>
+        <input type="text"><input type="submit"  value="search" />
+      </form>
+    </div>
+    <div class="sub-header-right">
+      <ul>
+        <li><%= link_to t("login"), "#" %></li>
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="clear"> </div>
+  <div class="top-nav">
+    <ul>
+      <li class="active1"><%= link_to t("home"), root_path %></li></li>
+      <li><%= link_to t("favorite"), "#" %></li></li>
+      <li><%= link_to t("album"), "#" %></li>
+      <li><%= link_to t("artist"), "#" %></li></li>
+      <li><%= link_to t("chart"), "#" %></li></li>
+      <div class="clear"></div>
+    </ul>
+  </div>
+</div>

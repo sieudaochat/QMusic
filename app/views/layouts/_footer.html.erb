@@ -1,0 +1,36 @@
+<div class="clear"></div>
+<div class="footer">
+  <div class="wrap">
+    <div class="section group">
+      <div class="col-1-of-4 span-1-of-4">
+        <h3><%= t "information" %></h3>
+        <ul>
+          <li><%= link_to t("about"), page_path(page: "about") %></li>
+          <li><%= link_to t("contact"), page_path(page: "contact") %></li>
+          <li><%= link_to t("help"), page_path(page: "help") %></li>
+        </ul>
+      </div>
+      <div class="col-1-of-4 span-1-of-4">
+        <h3><%= t "ouroffers" %></h3>
+      </div>
+      <div class="col-1-of-4 span-1-of-4">
+        <h3><%= t "youraccount" %></h3>
+        <ul>
+          <li><%= link_to t("youraccount"), "#" %></li>
+          <li><%= link_to t("personalinfo"), "#" %></li>
+          <li><%= link_to t("address"), "#" %></li>
+          <li><%= link_to t("locations"), "#" %></li>
+        </ul>
+      </div>
+      <div class="col-1-of-4 span-1-of-4 footer-lastgrid">
+        <h3><%= t "getintouch" %></h3>
+        <ul>
+          <li><%= link_to image_tag("/assets/facebook.png"), "https://facebook.com/shinichi.tk" %></li>
+          <li><%= link_to image_tag("/assets/twitter.png"), "#" %></li>
+          <li><%= link_to image_tag("/assets/rss.png"), "#" %></li>
+          <li><%= link_to image_tag("/assets/gpluse.png"), "#" %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
