@@ -20,4 +20,33 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  Qmusic: "QMusic"
+  slogan: "The best music website"
+  home: "Home"
+  login: "Log in"
+  search: "Search"
+  favorite: "Favorite"
+  artist: "Artist"
+  chart: "Chart"
+  album: "Album"
+  information: "Information"
+  about: "About us"
+  contact: "Contact"
+  help: "Help"
+  ouroffers: "Our offers"
+  youraccount: "Your account"
+  personalinfo: "Personal Info"
+  prices: "Prices"
+  address: "Address"
+  locations: "Locations"
+  getintouch: "Get in touch"
+  static_pages:
+    about:
+      aboutdescription: "Welcome to my website. \n
+        This website is developed by Quan Hoang Quoc"
+    contact:
+      contactdescription: "Welcome to my website. \n
+        Contact me in the bottom of website"
+    help:
+      helpdescription: "Welcome to my website. \n
+        If you need some help, please contact me"
