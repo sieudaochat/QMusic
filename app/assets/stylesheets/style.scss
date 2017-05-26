@@ -12,6 +12,7 @@ $gray29: #292828;
 $gray1: #63615f;
 $gray3: #333;
 $black: #000;
+$red: #f00;
 
 html,
 body,
@@ -73,6 +74,7 @@ body {
 .sub-header-center input {
   &[type='text'] {
     border: 1px inset $gray;
+    color: $black;
     padding: 10px;
     width: 50%;
   }
@@ -107,15 +109,15 @@ body {
   text-align: right;
 }
 
-.sub-header-right ul {
+.unlog-in {
   margin-bottom: 10px;
 }
 
-.sub-header-right ul li {
+.unlog-in li {
   display: inline-block;
 }
 
-.sub-header-right li a {
+.unlog-in li a {
   color: $white0;
   font-family: 'Open Sans', sans-serif;
   font-size: .75em;
@@ -123,7 +125,7 @@ body {
   text-transform: uppercase;
 }
 
-.sub-header-right li a:hover {
+.unlog-in li a:hover {
   color: $fc3019;
 }
 
@@ -167,6 +169,7 @@ body {
 .footer {
   background: $gray29;
   border-top: 2px solid $fc3019;
+  margin-top: 20px;
 }
 
 .footer-lastgrid li {
@@ -314,5 +317,44 @@ body {
 
   .product-shipping {
     width: 73%;
+  }
+}
+
+.col-md-offset-3 input,
+textarea,
+select {
+  border: 1px solid $gray;
+  color: $black;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+input {
+  height: auto !important;
+}
+
+.error-explanation {
+  color: $red;
+
+  ul {
+    color: $red;
+    margin: 0 0 30px;
+  }
+}
+
+.btn-primary {
+  font-size: 20px;
+}
+
+.dropdown {
+  color: $white0;
+}
+
+.checkbox {
+  margin-bottom: 10px;
+  margin-top: -10px;
+
+  span {
+    font-weight: normal;
   }
 }

@@ -24,6 +24,7 @@ en:
   slogan: "The best music website"
   home: "Home"
   login: "Log in"
+  signup: "Sign-up"
   search: "Search"
   favorite: "Favorite"
   artist: "Artist"
@@ -40,6 +41,8 @@ en:
   address: "Address"
   locations: "Locations"
   getintouch: "Get in touch"
+  welcome: "Welcome to QMusic! Please enjoy the world of music"
+  notfound: "User not found!"
   static_pages:
     about:
       aboutdescription: "Welcome to my website. \n
@@ -50,3 +53,19 @@ en:
     help:
       helpdescription: "Welcome to my website. \n
         If you need some help, please contact me"
+  users:
+    new:
+      confirmation: "Confirmation"
+      create: "Create my account"
+    show:
+      hello: "Hello "
+  shared:
+    error_messages:
+      formcontain: "The form contains "
+      error: "error"
+  sessions:
+    new:
+      login: "Log in"
+      signup: "Sign up now!"
+      newuser: "New user? "
+      remember: "Remember me on this computer"
